@@ -156,57 +156,6 @@
     .reveal-on-scroll { opacity: 0; transform: translateY(22px); transition: opacity .7s ease, transform .7s ease; }
     .revealed { opacity: 1; transform: none; }
 
-    /* ===== extra styles for consistency ===== */
-    .edu-card--inline {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-    .peer-avatar {
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
-      overflow: hidden;
-      flex-shrink: 0;
-      border: 2px solid var(--border);
-      background: var(--bg);
-    }
-    .peer-avatar img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    .cert-thumb {
-      width: 90px;
-      height: 65px;
-      border-radius: 6px;
-      overflow: hidden;
-      flex-shrink: 0;
-      background: var(--bg);
-      border: 1px solid var(--border);
-    }
-    .cert-thumb img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    .edu-card .meta {
-      color: var(--muted);
-      font-size: 13px;
-      margin-top: 2px;
-    }
-    .edu-card .list-item {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      padding: 6px 0;
-      border-bottom: 1px solid var(--border);
-    }
-    .edu-card .list-item:last-child {
-      border-bottom: none;
-    }
-
     @media (max-width: 850px) {
       .nav-links { position: fixed; inset: 0; background: var(--surface); display: flex; flex-direction: column; justify-content: center; transform: translateX(100%); transition: .3s; font-size: 20px; }
       .nav-checkbox:checked ~ .nav-links { transform: none; }
@@ -277,11 +226,11 @@
 
   <!-- ===== HERO ===== -->
   <section class="hero">
-    <div class="hero-bg-text">SIDAAMU</div>
+    <div class="hero-bg-text">ETHIOPIA</div>
     <div class="hero-content">
       <div class="hero-tag">AI Builder · Researcher · Developer</div>
-      <h1 class="hero-name"><span class="name-first">Shimelis</span><span class="name-last">Hatisso</span></h1>
-      <p class="hero-bio">Building the first AI for Sidaamu Afoo — a language spoken by 8 million people. Founded Ethiopia's first AI language research for Cushitic languages.</p>
+      <h1 class="hero-name"><span class="name-first">Shimelis</span><span class="name-last">Hatiso</span></h1>
+      <p class="hero-bio">Building AI and educational platforms for Ethiopia. Passionate about using technology to solve real-world problems for underrepresented communities.</p>
       <div class="hero-actions">
         <a href="#projects" class="btn-primary">View My Work</a>
         <a href="mailto:shimehatisoburiso@gmail.com" class="btn-outline">Get In Touch</a>
@@ -290,7 +239,6 @@
         <a href="https://github.com/Shime1000me" class="social-link" title="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
         <a href="https://www.linkedin.com/in/shimelis-hatiso-065524319/" class="social-link" title="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
         <a href="mailto:shimehatisoburiso@gmail.com" class="social-link" title="Email"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
-        <a href="https://huggingface.co/Shime1000me" class="social-link" title="Hugging Face"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 12l2 2 6-6"/></svg></a>
       </div>
     </div>
     <div class="hero-decoration"><div class="deco-ring"></div><div class="deco-dot"></div></div>
@@ -308,17 +256,17 @@
           </div>
         </div>
         <div class="about-text-col">
-          <h2 class="section-title">Building AI for languages<br /><em>that technology left behind.</em></h2>
-          <p style="padding-bottom: 20px; color: var(--muted); font-style: italic; font-size: 14px;">— I believe technology should serve every community — regardless of the language they speak.</p>
-          <p class="about-body">I'm a high school graduate from Ethiopia's Hayole Education Project, driven by one question: <strong>How can technology speak the language of my community?</strong></p>
-          <p class="about-body">I'm the creator of <strong>Sidaamu Afoo AI</strong> — the first intelligent language system for Sidaamu Afoo, spoken by over 8 million people — using Python, PyTorch, and Google's mT5. I've curated 155,000+ training lines and deployed a live demo on Hugging Face.</p>
-          <p class="about-body">Beyond research, I founded <strong>Hayo Machine Coders</strong>, a 37‑member coding club, and built the <strong>Sidama Education Portal</strong>, a trilingual platform serving thousands of students across 5 administrative zones.</p>
+          <h2 class="section-title">Building tech for communities<br /><em>that need it most.</em></h2>
+          <p style="padding-bottom: 20px; color: var(--muted); font-style: italic; font-size: 14px;">— I believe technology should serve every community — regardless of the resources they have.</p>
+          <p class="about-body">I'm a high school graduate from Ethiopia's Hayole Education Project, driven by one question: <strong>How can technology solve real problems in my community?</strong></p>
+          <p class="about-body">I am currently developing <strong>Hayyo AI</strong> (Coming Soon), a new AI project aimed at solving complex local challenges. I've also engineered <strong>Hayyo Academy</strong>, which includes both a full-stack CBT exam platform and a subscription-based e-learning course, alongside the <strong>Furra Model Academy Portal</strong>, a comprehensive school management system.</p>
+          <p class="about-body">Beyond software, I founded <strong>Hayo Machine Coders</strong>, a 37‑member coding club dedicated to teaching Python and web development to the next generation.</p>
           <div class="stats-row">
-            <div class="stat-item reveal-on-scroll"><span class="stat-num">155K+</span><span class="stat-label">Training Lines</span></div>
+            <div class="stat-item reveal-on-scroll"><span class="stat-num">100K+</span><span class="stat-label">User Target</span></div>
             <div class="stat-divider"></div>
             <div class="stat-item reveal-on-scroll"><span class="stat-num">37</span><span class="stat-label">Club Members</span></div>
             <div class="stat-divider"></div>
-            <div class="stat-item reveal-on-scroll"><span class="stat-num">8M+</span><span class="stat-label">Language Speakers</span></div>
+            <div class="stat-item reveal-on-scroll"><span class="stat-num">4K+</span><span class="stat-label">Students Served</span></div>
           </div>
         </div>
       </div>
@@ -370,33 +318,63 @@
       <div class="section-label teal-label">Work</div>
       <h2 class="section-title">Featured <em>Projects</em></h2>
       <div class="projects-grid">
+        
+        <!-- Project 1: Hayyo AI (Secret) -->
         <div class="proj-card reveal-on-scroll">
-          <div class="proj-img-wrap"><img src="sid-af-ai.jpg" alt="Sidaamu Afoo AI" class="proj-img" /></div>
+          <div class="proj-img-wrap" style="display: flex; align-items: center; justify-content: center; background: var(--dark); color: #fff;">
+            <h2 style="font-family: 'Space Mono', monospace; letter-spacing: 2px;">COMING SOON</h2>
+          </div>
           <div class="proj-body">
-            <div class="proj-tags"><span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">Hugging Face</span><span class="tag">mT5</span></div>
-            <h3>Hayyo Sidaamu Afoo AI</h3>
-            <p>First intelligent language system for Sidaamu Afoo. Custom BPE tokenizer, 155K+ training lines, perplexity 15.96. Deployed live on Hugging Face.</p>
-            <p style="margin-top: 10px; font-size: 12px;"><a href="https://huggingface.co/Shime1000/sid-af-ai" target="_blank" style="color: var(--accent);">🔗 Live Demo →</a></p>
+            <div class="proj-tags"><span class="tag tag--gold">🤫 Stealth Project</span></div>
+            <h3>Hayyo AI</h3>
+            <p>Currently in development. A new intelligent system aimed at solving complex local challenges. More details will be revealed soon.</p>
           </div>
         </div>
+
+        <!-- Project 2: Hayyo Academy Exam -->
         <div class="proj-card reveal-on-scroll">
-          <div class="proj-img-wrap"><img src="sidama-portal.png" alt="Sidama Education Portal" class="proj-img" /></div>
+          <div class="proj-img-wrap"><img src="hayyo-academy.jpg" alt="Hayyo Academy Exam" class="proj-img" /></div>
           <div class="proj-body">
-            <div class="proj-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">GitHub Pages</span></div>
-            <h3>Sidama Education Portal</h3>
-            <p>Trilingual (Sidaamu, Amharic, English) school registration platform serving 5 administrative zones. Partnered with schools serving 4,000+ students.</p>
+            <div class="proj-tags"><span class="tag">JavaScript</span><span class="tag">PostgreSQL</span><span class="tag">Supabase</span></div>
+            <h3>Hayyo Academy Exam</h3>
+            <p>A production-grade Computer-Based Testing (CBT) platform for Ethiopian students. Features strict role-based access, instant answer saving, and bilingual auto-grading.</p>
+            <p style="margin-top: 10px; font-size: 12px;"><a href="https://exam.hayyo.com.et" target="_blank" style="color: var(--accent);">🔗 Live Demo →</a></p>
+          </div>
+        </div>
+
+        <!-- Project 3: Hayyo Academy Web Dev Course -->
+        <div class="proj-card reveal-on-scroll">
+          <div class="proj-img-wrap"><img src="hayyo-course.jpg" alt="Hayyo Academy Course" class="proj-img" /></div>
+          <div class="proj-body">
+            <div class="proj-tags"><span class="tag">HTML/CSS</span><span class="tag">Vercel</span><span class="tag">Google OAuth</span></div>
+            <h3>Hayyo Academy Web Dev Course</h3>
+            <p>A subscription-based e-learning platform. Engineered a secure payment-verification workflow, automated file cleanup, and an automated PDF certificate generator.</p>
+            <p style="margin-top: 10px; font-size: 12px;"><a href="https://hayyo.com.et" target="_blank" style="color: var(--accent);">🔗 Live Demo →</a></p>
+          </div>
+        </div>
+
+        <!-- Project 4: Furra Model Academy Portal -->
+        <div class="proj-card reveal-on-scroll">
+          <div class="proj-img-wrap"><img src="furra-portal.jpg" alt="Furra Model Academy Portal" class="proj-img" /></div>
+          <div class="proj-body">
+            <div class="proj-tags"><span class="tag">HTML</span><span class="tag">JavaScript</span><span class="tag">Supabase</span></div>
+            <h3>Furra Model Academy Portal</h3>
+            <p>Custom multi-role school management system handling registration, grading, and online exams. Built with Supabase RLS for strict data privacy.</p>
+          </div>
+        </div>
+
+        <!-- Project 5: Sidama Registration Portal -->
+        <div class="proj-card reveal-on-scroll">
+          <div class="proj-img-wrap"><img src="sidama-portal.png" alt="Sidama Registration Portal" class="proj-img" /></div>
+          <div class="proj-body">
+            <div class="proj-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+            <h3>Sidama Registration Portal</h3>
+            <p>Trilingual (Sidaamu, Amharic, English) registration platform designed to eliminate 200-birr transportation costs and queues for rural families.</p>
             <p style="margin-top: 10px; font-size: 12px;"><a href="https://shime1000me.github.io/s/Sidama_ed_portal/" target="_blank" style="color: var(--accent);">🔗 Live Demo →</a></p>
           </div>
         </div>
-        <div class="proj-card reveal-on-scroll">
-          <div class="proj-img-wrap"><img src="hayyo-academy.jpg" alt="Hayyo Academy" class="proj-img" /></div>
-          <div class="proj-body">
-            <div class="proj-tags"><span class="tag">Node.js</span><span class="tag">PostgreSQL</span><span class="tag">Google OAuth</span><span class="tag">Render</span></div>
-            <h3>Hayyo Academy</h3>
-            <p>ESSLCE exam preparation platform for Ethiopian Grade 12 students. Full-stack architecture with structured past papers and CBT simulation. Engineered for 100,000+ students.</p>
-            <p style="margin-top: 10px; font-size: 12px;"><a href="https://h-exam.onrender.com" target="_blank" style="color: var(--accent);">🔗 Live Demo →</a></p>
-          </div>
-        </div>
+
+        <!-- Project 6: Coding Club -->
         <div class="proj-card reveal-on-scroll">
           <div class="proj-img-wrap"><img src="hayo-club.jpg" alt="Hayo Machine Coders" class="proj-img" /></div>
           <div class="proj-body">
@@ -409,7 +387,7 @@
     </div>
   </section>
 
-  <!-- ===== INTERNATIONAL EXPERIENCE (edu-card style) ===== -->
+  <!-- ===== INTERNATIONAL EXPERIENCE ===== -->
   <section class="section-pad" style="background: var(--bg);">
     <div class="container">
       <div class="section-label teal-label">Global</div>
@@ -425,33 +403,55 @@
             <div class="edu-badge edu-badge--done">Completed</div>
             <h3>🌍 AddisCoder 2025</h3>
             <p class="edu-institution">Addis Ababa, Ethiopia — Led by Prof. Jelani Nelson (UC Berkeley)</p>
-            <div style="margin-top: 15px; display: flex; flex-direction: column; gap: 12px;">
-              <!-- Alex -->
-              <div style="display: flex; align-items: center; gap: 15px;">
-                <div style="width: 60px; height: 60px; border-radius: 50%; overflow: hidden; border: 2px solid var(--border); flex-shrink: 0;">
-                  <img src="alex.jpg" alt="Alex" style="width: 100%; height: 100%; object-fit: cover;">
+            
+            <!-- Peer Cards styled exactly like Project Cards -->
+            <div style="margin-top: 25px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+              
+              <!-- Alex Card -->
+              <div class="proj-card" style="background: var(--bg);">
+                <div class="proj-img-wrap" style="aspect-ratio: 1/1;">
+                  <img src="alex.jpg" alt="Alex" class="proj-img">
                 </div>
-                <div>
-                  <p style="font-weight: 600;"><span class="flag">🇨🇳</span> Alex from China</p>
-                  <p style="color: var(--muted); font-size: 13px;">International peer at AddisCoder 2025</p>
-                </div>
-              </div>
-              <!-- Dan -->
-              <div style="display: flex; align-items: center; gap: 15px;">
-                <div style="width: 60px; height: 60px; border-radius: 50%; overflow: hidden; border: 2px solid var(--border); flex-shrink: 0;">
-                  <img src="dan.jpg" alt="Dan" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-                <div>
-                  <p style="font-weight: 600;"><span class="flag">🇪🇸</span> Dan from Spain</p>
-                  <p style="color: var(--muted); font-size: 13px;">International peer at AddisCoder 2025</p>
+                <div class="proj-body" style="text-align: center;">
+                  <h3 style="font-size: 20px; margin-bottom: 5px;"><span class="flag">🇨🇳</span> Alex</h3>
+                  <p style="margin-top: 0;">International peer from China</p>
                 </div>
               </div>
-              <!-- Group photo -->
-              <div style="margin-top: 8px; border-radius: 10px; overflow: hidden; border: 1px solid var(--border);">
-                <img src="group.jpg" alt="AddisCoder Group" style="width: 100%; max-height: 220px; object-fit: cover; display: block;">
+              
+              <!-- Dan Card -->
+              <div class="proj-card" style="background: var(--bg);">
+                <div class="proj-img-wrap" style="aspect-ratio: 1/1;">
+                  <img src="dan.jpg" alt="Dan" class="proj-img">
+                </div>
+                <div class="proj-body" style="text-align: center;">
+                  <h3 style="font-size: 20px; margin-bottom: 5px;"><span class="flag">🇪🇸</span> Dan</h3>
+                  <p style="margin-top: 0;">International peer from Spain</p>
+                </div>
               </div>
-              <p style="color: var(--muted); font-style: italic; font-size: 14px; text-align: center; margin-top: 4px;">"Learned global standards in AI and programming"</p>
+
             </div>
+
+            <!-- Group photo (Bigger) -->
+            <div style="margin-top: 25px; border-radius: 12px; overflow: hidden; border: 2px solid var(--border);">
+              <img src="group.jpg" alt="AddisCoder Group" style="width: 100%; max-height: 400px; object-fit: cover; display: block;">
+            </div>
+            <p style="color: var(--muted); font-style: italic; font-size: 15px; text-align: center; margin-top: 12px;">"Learned global standards in AI and programming"</p>
+            
+            <!-- Video Section -->
+            <div style="margin-top: 40px; border-top: 1px solid var(--border); padding-top: 30px;">
+              <h4 style="font: 700 20px 'Playfair Display', serif; margin-bottom: 15px;">INSA Summer Camp Welcome Video</h4>
+              <p style="color: var(--muted); font-size: 14px; margin-bottom: 20px;">A short video welcoming us at the INSA Summer Camp, spoken in Sidaamu Afoo.</p>
+              
+              <!-- Video Player -->
+              <div style="border-radius: 12px; overflow: hidden; border: 2px solid var(--border); background: #000;">
+                <!-- Note: Replace "your-video.mp4" with your actual video file path -->
+                <video controls style="width: 100%; max-height: 400px; display: block;">
+                  <source src="your-video.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -466,18 +466,18 @@
       <div class="interests-grid">
         <div class="interest-card reveal-on-scroll">
           <div class="interest-icon-box"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="interest-icon"><circle cx="12" cy="12" r="10"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg></div>
-          <h3>AI & NLP</h3>
-          <p>Transformer fine-tuning, machine translation, corpus construction, and low-resource language modeling for Ethiopian languages.</p>
+          <h3>AI & Data Systems</h3>
+          <p>Building intelligent systems, designing databases (PostgreSQL), and implementing secure data flows.</p>
         </div>
         <div class="interest-card reveal-on-scroll">
           <div class="interest-icon-box"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="interest-icon"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
-          <h3>Web Development</h3>
-          <p>Full-stack development with JavaScript, Node.js, PostgreSQL, and responsive frontend design for educational platforms.</p>
+          <h3>Full-Stack Dev</h3>
+          <p>Serverless architecture, authentication (OAuth), API integration, and responsive frontend design.</p>
         </div>
         <div class="interest-card reveal-on-scroll">
           <div class="interest-icon-box"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="interest-icon"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-          <h3>Research</h3>
-          <p>Literature review, experimental design, statistical analysis, and publication-ready research in computational linguistics.</p>
+          <h3>Leadership</h3>
+          <p>Founding and managing tech communities, teaching programming, and leading student research initiatives.</p>
         </div>
       </div>
 
@@ -490,20 +490,20 @@
             <div class="tools-icons"><span class="tool-chip">Python</span><span class="tool-chip">JS</span><span class="tool-chip">HTML</span><span class="tool-chip">CSS</span><span class="tool-chip">Node</span></div>
           </div>
           <div class="tools-card reveal-on-scroll">
-            <h3>AI / ML</h3>
-            <div class="tools-icons"><span class="tool-chip">PyTorch</span><span class="tool-chip">HF</span><span class="tool-chip">mT5</span><span class="tool-chip">NLP</span><span class="tool-chip">Gradio</span></div>
+            <h3>Backend / Data</h3>
+            <div class="tools-icons"><span class="tool-chip">Supabase</span><span class="tool-chip">PostgreSQL</span><span class="tool-chip">Google OAuth</span><span class="tool-chip">Vercel</span></div>
           </div>
           <div class="tools-card reveal-on-scroll">
             <h3>Tools & Platforms</h3>
-            <div class="tools-icons"><span class="tool-chip">Git</span><span class="tool-chip">Postgres</span><span class="tool-chip">Render</span><span class="tool-chip">Colab</span></div>
+            <div class="tools-icons"><span class="tool-chip">Git</span><span class="tool-chip">Cloudflare</span><span class="tool-chip">Render</span><span class="tool-chip">Colab</span></div>
           </div>
         </div>
-        <p class="tools-note">Building the future of Ethiopian language technology — one model, one dataset, one community at a time.</p>
+        <p class="tools-note">Building the future of Ethiopian tech — one platform, one dataset, one community at a time.</p>
       </div>
     </div>
   </section>
 
-  <!-- ===== CREDENTIALS & CERTIFICATES (edu-card style) ===== -->
+  <!-- ===== CREDENTIALS & CERTIFICATES ===== -->
   <section class="section-pad" style="background: var(--surface);">
     <div class="container">
       <div class="section-label">Credentials</div>
@@ -562,24 +562,6 @@
           </div>
         </div>
 
-        <!-- Certificates card 3 -->
-        <div class="edu-card reveal-on-scroll">
-          <div class="edu-icon-wrap">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="edu-icon"><circle cx="12" cy="8" r="6"/><path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"/></svg>
-          </div>
-          <div class="edu-details">
-            <div style="display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
-              <div style="width: 80px; height: 60px; border-radius: 6px; overflow: hidden; flex-shrink: 0; border: 1px solid var(--border);">
-                <img src="udacity-ai.jpg" alt="Udacity AI" style="width: 100%; height: 100%; object-fit: cover;">
-              </div>
-              <div>
-                <h3 style="font-size: 18px;">AI Fundamentals</h3>
-                <p style="color: var(--muted); font-size: 13px;">Artificial Intelligence Fundamentals — Udacity 2025</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
     </div>
   </section>
@@ -591,7 +573,7 @@
         <div class="contact-info">
           <div class="section-label section-label--light">Connect</div>
           <h2 class="section-title section-title--light">Let's build<br /><em>together</em></h2>
-          <p class="contact-intro">I'm always interested in collaborating on NLP research, educational technology, or AI for underrepresented languages. Let's connect.</p>
+          <p class="contact-intro">I'm always interested in collaborating on AI research, educational technology, or software engineering. Let's connect.</p>
           <div class="contact-details">
             <a href="mailto:shimehatisoburiso@gmail.com" class="contact-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-ic"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg><span>shimehatisoburiso@gmail.com</span></a>
             <div class="contact-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-ic"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg><span>Sidama, Ethiopia</span></div>
@@ -599,7 +581,7 @@
           </div>
           <div class="looking-for">
             <h3>What I'm building:</h3>
-            <ul><li>AI for underrepresented languages</li><li>Educational technology for Ethiopia</li><li>Research in low-resource NLP</li><li>Community-driven tech solutions</li></ul>
+            <ul><li>Hayyo AI (Coming Soon)</li><li>Educational technology for Ethiopia</li><li>Secure School Management Systems</li><li>Community-driven tech solutions</li></ul>
           </div>
         </div>
         <div class="contact-form-col">
@@ -653,4 +635,4 @@
   </script>
 
 </body>
-  </html>
+</html>
