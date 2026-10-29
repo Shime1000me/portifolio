@@ -442,13 +442,16 @@
               <h4 style="font: 700 20px 'Playfair Display', serif; margin-bottom: 15px;">INSA Summer Camp Welcome Video</h4>
               <p style="color: var(--muted); font-size: 14px; margin-bottom: 20px;">A short video welcoming us at the INSA Summer Camp, spoken in Sidaamu Afoo.</p>
               
-              <!-- Video Player -->
-              <div style="border-radius: 12px; overflow: hidden; border: 2px solid var(--border); background: #000;">
-                <!-- Note: Replace "your-video.mp4" with your actual video file path -->
-                <video controls style="width: 100%; max-height: 400px; display: block;">
-                  <source src="your-video.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                </video>
+              <!-- YouTube Embed -->
+              <div style="border-radius: 12px; overflow: hidden; border: 2px solid var(--border); position: relative; padding-bottom: 56.25%; height: 0; background: #000;">
+                <iframe 
+                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                  src="https://www.youtube.com/embed/kB5GHXo7b9w" 
+                  title="INSA Summer Camp Welcome Video" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+                </iframe>
               </div>
             </div>
 
